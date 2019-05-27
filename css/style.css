@@ -1,0 +1,425 @@
+body {
+    margin: 0;
+
+}
+p {
+    font-family: PT Sans;
+}
+h1 {
+    font-family: 'Lato', sans-serif;
+}
+
+
+h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+}
+
+#forside {
+    background-color: #4b6c57;
+    height: 1000px;
+}
+
+header {
+    padding: 10px;
+    width: 60%;
+    position:fixed;
+    left: 20%;
+}
+
+#logo {
+ width: 100%;
+    height: 20%;
+}
+
+
+header, span {
+    display: inline-block
+}
+/*menu (https://www.w3schools.com/howto/howto_js_sidenav.asp)*/
+span {
+    font-size: 40px;
+    cursor: pointer;
+    position: -webkit-sticky; /* Safari */
+  position: sticky;
+    top: 0;
+    margin-left: 96%;
+    
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/*kroppen*/
+
+#facade {
+    width: 74%;
+    height: 74%;
+    margin-left: 13%
+   
+}
+
+video {
+    width: 100%
+}
+
+#kiosken {
+    width: 30%;
+    background-color: #E3D6D6;
+    padding: 10px;
+    z-index: 1; 
+    position: absolute;
+    left: 50%;
+    top: 260%;
+}
+
+#kiosk1 {
+    width: 40%;
+    position: absolute;
+    z-index: -1;
+    left: 20%;
+    top: 225%
+}
+#kiosk2 {
+    width: 40%;
+    position: absolute;
+    z-index: -1;
+    left: 20%;
+    top: 300%
+}
+#kiosk3{
+    width: 30%;
+    position: absolute;
+    z-index: -2;
+    top:335%;
+    left: 45%;
+}
+#kiosktitel {
+    position: absolute;
+    z-index: 2;
+    left:65% ;
+    top: 250%;
+}
+
+#ravarerne {
+    background-color: #0A3025;
+    color: white;
+    padding: 10px;
+    width: 25%;
+    position: absolute;
+    z-index: 1;
+    top: 400%;
+    left: 25%;
+    
+}
+#ravarerne1 {
+    width: 40%;
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    top:365%;
+}
+#ravarerne2 {
+    width: 25%;
+    position: absolute;
+    z-index: -1;
+    top:410%;
+    left: 65%
+}
+#ravarerne3 {
+    width: 40%;
+    position: absolute;
+    z-index: -1;
+    top: 450%;
+    left: 20%;
+}
+#ravarernetitel {
+    position: absolute;
+    z-index: 2;
+    left: 30%;
+    top: 390%;
+    
+}
+
+#livsstilen {
+     background-color: #B9C1BC;
+    padding: 10px;
+    width: 25%;
+    position: absolute;
+    z-index: 1;
+    top: 680%;
+    left: 55%;
+}
+#livsstil1 {
+    width: 50%;
+    position: absolute;
+    z-index: -1;
+    top: 630%;
+    left: 20%;
+}
+#livsstil2 {
+    width: 35%;
+    position: absolute;
+    z-index: -1;
+    top: 720%;
+    left: 30%;
+}
+#livsstil3 {
+    width: 20%;
+    position: absolute;
+    z-index: -2;
+    top: 710%;
+    left: 22%;
+    
+}
+#livsstiltitel {
+    position: absolute;
+    top: 670%;
+    left: 72%
+}
+
+/*Eventkalender*/
+
+
+#eventkalender {
+    width: 60%;
+    position: absolute;
+    top: 520%;
+    left: 20%;
+    
+}
+
+
+h2 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 35px;
+}
+
+
+
+
+#eventkalender1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#eventkalender2 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+#blok {
+    width: 15%;
+    height: 3%;
+    background-color: #4B6C57;
+}
+
+
+#strikke-ikon {
+    width: 60px;
+    padding-left: 200px;
+}
+
+#is-ikon {
+    width: 60px;
+    padding-left: 150px;
+}
+
+#blomster-ikon {
+    width: 60px;
+    padding-left: 170px;
+}
+
+#bog-ikon {
+    width: 60px;
+    padding-left: 165px;
+}
+
+/*Åbningstider*/
+
+#aabningstider {
+    width: 30%;
+    position: absolute;
+    z-index: 2;
+    top: 750%;
+    left: 50%
+}
+
+/*Gavekort*/
+#gavekort {
+    position: absolute;
+    top: 810%;
+
+}
+
+#gavekort-overskrift {
+    text-align: center;
+}
+
+#gavekortindhold {
+    display: flex;
+  
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#haekken {
+    width: 35%;
+    height: 20%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+#om-gavekort{
+    background-color: #E5F3F6;
+    color: black;
+     padding: 20px;
+    width: 25%;
+    height: 20%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+#tekst-gavekort {
+    font-size: 20px;
+}
+
+/*Find din nabo*/
+#finddinnabo {
+    position: absolute;
+    top: 850%;
+}
+#lokation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#kort {
+    width: 20%;
+    height: 20%;
+    margin-left: 25%;
+    margin-top: 2%;
+}
+
+#find {
+    background-color: #B9C1BC;
+    color: white;
+    width: 20%;
+    height: 20%;
+    text-align: center;
+    margin-right: 25%;
+    margin-top: 3%;
+}
+
+#find-overskrift{
+    text-align: center;
+}
+
+#rutevejledning{
+    color: white;
+}
+
+#tekst-find {
+    font-size: 20px;
+}
+
+/*footer*/
+
+#mvh {
+    position: absolute;
+    top: 900%;
+}
+
+#gutter {
+    width: 50%;
+    position: absolute;
+    top: 915%;
+    left: 25%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   width: 80%;
+    margin-left: 10%;
+    margin-bottom: 1%;
+    position: absolute;
+    top: 980%;
+}
+
+#footer-left {
+    width: 20%;
+}
+#textboks {
+    background-color: #DBC6C6;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+#textboks p {
+    padding: 10px;
+}
+
+#kontakt {
+    text-align: center;
+}
+
+#footer-middle {
+    width: 20%;
+}
+
+#footer-middle img{
+    width: 100%;
+}
+#face {
+    text-align: center;
+}
+
+#footer-right {
+    width: 20%;
+    text-align: center;
+}
+#footer-right img {
+    width: 100%;
+}
+
+#insta {
+    text-align: center;
+}
